@@ -27,9 +27,10 @@
           <a name="themes"></a>
           <h1>Themes</h1>
         </div>
-         <div class="intro">
+         <div class="intro text-center">
           <p class="lead">Explore the resources by three broad thematic categories</p> 
          </div>
+         <img class="img-responsive" src="https://omeka1.grinnell.edu/native-history/themes/omeka-bootswatch-themes/images/fuck-manifest-destiny.jpg">
       </div>
     </div>
   </div>
@@ -43,10 +44,12 @@
           <a name="map"></a>
           <h1>Map</h1>
         </div>
-         <div class="intro">
+         <div class="intro text-center">
           <p class="lead">Explore units, lessons, and resources by location</p> 
          </div>
-         <img class="img-responsive" src="https://omeka1.grinnell.edu/native-history/themes/omeka-bootswatch-themes/images/fuck-manifest-destiny.jpg">
+         <a href="http://omeka1.grinnell.edu/native-history/geolocation/map/browse">
+           <img class="img-responsive" src="https://omeka1.grinnell.edu/native-history/themes/omeka-bootswatch-themes/images/fuck-manifest-destiny.jpg">
+         </a>
       </div>
     </div>
   </div>
@@ -60,9 +63,12 @@
           <a name="timeline"></a>
           <h1>Timeline</h1>
         </div>
-         <div class="intro">
-          <p class="lead">Explore units, lessons, and resources by time</p> 
+         <div class="intro text-center">
+           <p class="lead">Explore units, lessons, and resources by time</p> 
          </div>
+           <a href="http://omeka1.grinnell.edu/native-history/neatline-time">
+             <img class="img-responsive" src="https://omeka1.grinnell.edu/native-history/themes/omeka-bootswatch-themes/images/fuck-manifest-destiny.jpg">
+           </a>
       </div>
     </div>
   </div>

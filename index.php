@@ -9,11 +9,12 @@
 		}		
 ?>
 <div class="row">
-    <div class="col-md-8<?php echo $main_add;?>">
+     <!-- NAH = hacky fix to make full width display now — add logic to make one column -->
+    <div class="col-md-12<?php echo $main_add;?>">
 		<?php if ($homepageText = get_theme_option('Homepage Text')): ?>
 			<div id="homepage-text"><p><?php echo $homepageText; ?></p></div>
 		<?php else: ?>
-		<?php echo $this->partial('common/loremize-main.phtml');?>
+		<?php echo $this->partial('common/home.php');?>
 		<?php endif; ?>
 		<?php
 	    $recentItems = get_theme_option('Homepage Recent Items');
