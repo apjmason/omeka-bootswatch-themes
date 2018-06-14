@@ -57,7 +57,8 @@
         </div>
       </div>
     </nav>
-    <?php if ((get_theme_option('display_header') !== '0')): ?>
+<!-- NAH - edited to only add header on home page -->
+    <?php if ((get_theme_option('display_header') !== '0') && is_current_url("http://localhost:8888/omeka/")): ?>
     <header id="banner" class="<?php echo get_theme_option('header_flow'); ?> page-header" style="background-size:cover;background-image:url('<?php 
 		if ((get_theme_option('Header Background Image') === null)){
 			echo img('defaulthbg.jpg');
@@ -69,15 +70,30 @@
 			<div class="col-md-2 col-md-offset-1" id="header-logo-holder">
 				 <?php echo bs_header_logo(); ?>
 			</div>
-			<?php endif; ?>
+
+<!-- NAH- adding conditional to center text if no logo -->
 			<div class="col-md-8" id="header-claim-holder">
-				<div class="well">
+      <?php else : ?>
+			<div class="col-md-8 col-md-offset-2" id="header-claim-holder"> 
+			<?php endif; ?>
+
+				<div class="jumbotron">
 				<?php if ((get_theme_option('header_image_heading') !== '')): ?>
 					<h1><?php echo get_theme_option('header_image_heading'); ?></h1>
 				<?php endif; ?>
 				<?php if ((get_theme_option('header_image_text') !== '')): ?>
 					<p><?php echo get_theme_option('header_image_text'); ?></p>
 				<?php endif; ?>
+        <div class="row">
+          <div class="col-xs-4">
+            <a href="#themes" class="btn btn-primary btn-lg btn-block" role="button">Themes</a>
+          </div>
+          <div class="col-xs-4">
+            <a href="#map" class="btn btn-primary btn-lg btn-block" role="button">Map</a>
+          </div>
+          <div class="col-xs-4">
+            <a href="#timeline" class="btn btn-primary btn-lg btn-block" role="button">Timeline</a>
+          </div>
 				</div>			
 			</div>
 		</div>
