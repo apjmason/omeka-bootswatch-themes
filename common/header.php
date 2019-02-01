@@ -65,7 +65,7 @@
 		}			
 		else echo bs_header_bg(); 
 		?>');">
-		<div class="row header-row">
+		<div class="row header-row vertical-center">
 			<?php if ((get_theme_option('header_logo_image') !== null)): ?>
 			<div class="col-md-2 col-md-offset-1" id="header-logo-holder">
 				 <?php echo bs_header_logo(); ?>

@@ -66,7 +66,7 @@
          <div class="intro text-center">
            <p class="lead">Explore units, lessons, and resources by time</p> 
          </div>
-           <a href="http://omeka1.grinnell.edu/native-history/neatline-time">
+           <a href=http://omeka1.grinnell.edu/native-history/neatline-time/timelines/show/1"">
              <img class="img-responsive" src="https://omeka1.grinnell.edu/native-history/themes/omeka-bootswatch-themes/images/fuck-manifest-destiny.jpg">
            </a>
       </div>

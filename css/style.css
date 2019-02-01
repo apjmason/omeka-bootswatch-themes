@@ -24,6 +24,18 @@ section {
     scroll-behavior: smooth;
 }
 
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.cover{
+    object-fit:cover;
+}
+
 /* Add your custom CSS here*/
 body {
     padding-top: 50px
@@ -304,7 +316,6 @@ footer p {
 {
 	opacity: 0.8;
 	border-radius:10px;
-    margin-top: 15%;
 }
 
 .bs-docs-section h1 {

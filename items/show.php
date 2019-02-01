@@ -5,7 +5,7 @@
     <h1><?php echo metadata('item', array('Dublin Core', 'Title')); ?></h1>
 
     <div class="row">
-        <div class="col-sm-6">
+        <!-- <div class="col-sm-6">
                 <?php $images = $item->Files; $imagesCount = 1; ?>
                 <?php if ($images): ?>
                 <ul id="image-gallery" class="clearfix">
@@ -18,7 +18,7 @@
                 <?php else: ?>
                     <div class="no-image">No photos available.</div>
                 <?php endif; ?>
-        </div>
+        </div> -->
         </div>
             <?php echo all_element_texts('item'); ?>
         
