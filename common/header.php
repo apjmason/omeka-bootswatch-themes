@@ -58,7 +58,7 @@
       </div>
     </nav>
 <!-- NAH - edited to only add header on home page -->
-    <?php if ((get_theme_option('display_header') !== '0') && is_current_url("http://localhost:8888/omeka/")): ?>
+    <?php if ((get_theme_option('display_header') !== '0') && is_current_url($base_url)): ?>
     <header id="banner" class="<?php echo get_theme_option('header_flow'); ?> page-header" style="background-size:cover;background-image:url('<?php 
 		if ((get_theme_option('Header Background Image') === null)){
 			echo img('defaulthbg.jpg');
